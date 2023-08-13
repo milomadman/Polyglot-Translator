@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal 
+Edited by Milo-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Multiple Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+
+
+    <div class="container">
+      <div>
+        <h1 class="title">Translate to up to three languages at once!</h1>
+      </div>
+      <div class="wrapper">
+        <table>
+          <tr class="text-input">
+            <th>
+              <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+            </th>
+            <th>
+              <textarea spellcheck="false" readonly disabled class="to-text1" placeholder="Translation 1"></textarea>
+            </th>
+            <th>
+              <textarea spellcheck="false" readonly disabled class="to-text2" placeholder="Translation 2"></textarea> 
+            </th>
+            <th>
+              <textarea spellcheck="false" readonly disabled class="to-text3" placeholder="Translation 3"></textarea>
+            </th>
+          </tr>
+          <tr class="controls">
+            <th class="row from"><select></select></th>
+            <th class="row to"><select></select></th>
+            <th class="row to"><select></select></th>
+            <th class="row to"><select></select></th>
+          </tr>
+        </table>
+      </div>
+      <button>Translate Text</button>
+    </div>
+
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
